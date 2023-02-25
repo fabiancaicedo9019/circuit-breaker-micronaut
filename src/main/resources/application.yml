@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: circuitBreaker
+netty:
+  default:
+    allocator:
+      max-order: 3
