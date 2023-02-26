@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Circuit Breaker - API</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .main .container {
+            display: flex;
+            min-width: 100vw;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+            padding: 15px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .btn {
+            outline: none;
+            box-shadow: none;
+            padding: 5px 15px;
+            background-color: darkcyan;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        small {
+            background-color: darkslateblue;
+            color: white;
+            font-weight: bold;
+            padding: 2px 7px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<main class="main">
+    <section class="container">
+        <h1>Welcome to circuit-breaker-micronaut.</h1>
+        <small id="templated">Fabian Andres Caicedo Cuellar</small>
+        <a class="btn" href="/swagger/views/swagger-ui">Go to definition</a>
+    </section>
+</main>
+</body>
+
+</html>

@@ -6,6 +6,6 @@ import io.micronaut.retry.annotation.Fallback;
 public class PokedexClientFallback implements PokedexClient{
     @Override
     public String getPokomen(String name) {
-        return "Fatal error";
+        return "El servicio se encuentra en mantenimiento";
     }
 }
