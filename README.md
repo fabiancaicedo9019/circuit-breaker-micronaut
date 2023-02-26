@@ -31,4 +31,11 @@
 
 - [https://swagger.io/tools/swagger-ui/](https://swagger.io/tools/swagger-ui/)
 
+## Requirements
+- JDK 17
+
+## Run project
+```
+./mvnw mn:run
+```
 
