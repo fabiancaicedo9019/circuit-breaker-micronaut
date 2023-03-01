@@ -1,7 +1,0 @@
-#!/bin/bash
-
- curl -s --location --request GET 'http://localhost:8080/pokemon/pikachu' \
- --header 'Content-Type: application/json' \
- --data '{
- "jsonFileUrl": "src/main/resources/test/test.json"\
- }'
