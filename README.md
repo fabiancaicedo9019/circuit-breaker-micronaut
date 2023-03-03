@@ -89,7 +89,6 @@ Para utilizar el proyecto usted debe instalación en su máquina lo siguiente:
 A continuación, se muestran algunas imágenes sobre el uso del proyecto, para que sea más fácil seguir el paso a paso que se presenta anteriormente.
 
 ![Imagen de uso](src/main/resources/assets/images/uso.gif)
-![alt text](assets/ images/screenshot.png)
 
 ## Creditos
 
